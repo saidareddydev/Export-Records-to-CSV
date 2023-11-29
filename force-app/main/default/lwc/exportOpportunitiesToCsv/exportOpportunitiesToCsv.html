@@ -1,0 +1,18 @@
+<template>
+
+    <lightning-card title="Export Related Opportunities to CSV without using Apex" icon-name="standard:related_list">
+        <div class="slds-m-around_medium" style="background-color: white;">
+            <p class="slds-p-horizontal_large"><b>This component exports the related opportunity records into a CSV
+                file.</b></p>
+            <lightning-button 
+                        label="Export to CSV" 
+                        title="Export to CSV" 
+                        onclick={exportToCSV}
+                        icon-name="utility:download"
+                        variant="brand"
+                        class="slds-p-around_xxx-small slds-align_absolute-center"
+            ></lightning-button>
+        </div>
+    </lightning-card>
+    
+</template>
